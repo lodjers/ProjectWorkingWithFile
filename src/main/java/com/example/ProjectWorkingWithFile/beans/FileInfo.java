@@ -18,6 +18,8 @@ public class FileInfo {
 
     private byte[] fileData;
 
+    private String fileUploadStatus;
+
 
     public String getFileName() {
         return fileName;
@@ -65,5 +67,13 @@ public class FileInfo {
 
     public void setFileData(byte[] fileData) {
         this.fileData = fileData;
+    }
+
+    public String getFileUploadStatus() {
+        return fileUploadStatus;
+    }
+
+    public void setFileUploadStatus(String fileUploadStatus) {
+        this.fileUploadStatus = fileUploadStatus;
     }
 }
